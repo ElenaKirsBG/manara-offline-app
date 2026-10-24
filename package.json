@@ -1,0 +1,12 @@
+{
+  "name": "manara-offline-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:qwen": "esbuild qwen-worker.js --bundle --format=esm --outfile=qwen-worker.bundle.js"
+  },
+  "devDependencies": {
+    "@mlc-ai/web-llm": "0.2.86",
+    "esbuild": "0.25.12"
+  }
+}
