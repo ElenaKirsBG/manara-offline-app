@@ -1,0 +1,10 @@
+{
+  "name": "Манара — дневник раскладов",
+  "short_name": "Манара",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#17131a",
+  "theme_color": "#241827",
+  "description": "Офлайн справочник и дневник раскладов Таро Манара"
+}

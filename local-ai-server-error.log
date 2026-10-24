@@ -1,0 +1,22 @@
+0.00.088.528 I srv  llama_server: initializing ...
+0.00.088.537 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.095.947 I srv    load_model: loading model 'C:\Qwen\qwen3.5-4b-Q4_K_M.gguf'
+0.01.346.957 W model has unused tensor blk.32.attn_norm.weight (size = 10240 bytes) -- ignoring
+0.01.346.998 W model has unused tensor blk.32.post_attention_norm.weight (size = 10240 bytes) -- ignoring
+0.01.347.046 W model has unused tensor blk.32.attn_q.weight (size = 11796480 bytes) -- ignoring
+0.01.347.074 W model has unused tensor blk.32.attn_k.weight (size = 1474560 bytes) -- ignoring
+0.01.347.090 W model has unused tensor blk.32.attn_v.weight (size = 2150400 bytes) -- ignoring
+0.01.347.176 W model has unused tensor blk.32.attn_output.weight (size = 5898240 bytes) -- ignoring
+0.01.347.194 W model has unused tensor blk.32.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.01.347.208 W model has unused tensor blk.32.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.01.347.225 W model has unused tensor blk.32.ffn_gate.weight (size = 13271040 bytes) -- ignoring
+0.01.347.241 W model has unused tensor blk.32.ffn_down.weight (size = 19353600 bytes) -- ignoring
+0.01.347.269 W model has unused tensor blk.32.ffn_up.weight (size = 13271040 bytes) -- ignoring
+0.01.347.286 W model has unused tensor blk.32.nextn.eh_proj.weight (size = 7372800 bytes) -- ignoring
+0.01.347.320 W model has unused tensor blk.32.nextn.enorm.weight (size = 10240 bytes) -- ignoring
+0.01.347.337 W model has unused tensor blk.32.nextn.hnorm.weight (size = 10240 bytes) -- ignoring
+0.01.347.417 W model has unused tensor blk.32.nextn.shared_head_norm.weight (size = 10240 bytes) -- ignoring
+0.10.909.502 I cmn          init: llama threadpool init, n_threads = 4
+0.13.960.639 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 8192, kv_unified = 'true'
+0.14.044.182 I srv  llama_server: model loaded
+0.14.044.568 I srv  llama_server: listening on http://127.0.0.1:9931
